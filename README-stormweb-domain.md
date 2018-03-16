@@ -9,7 +9,16 @@
 - under `manage` click `Private Nameservers`
 - enter data in `Register a NameServer Name`
 
+
+## tileserver 
 ```
 nameserver: tiles.energyexplorer.ca
+IP Address: ###.###.##.###
+```
+
+
+## beta 
+```
+nameserver: beta.energyexplorer.ca
 IP Address: ###.###.##.###
 ```
