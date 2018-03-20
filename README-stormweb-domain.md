@@ -3,22 +3,29 @@
 
 ## Adding a subdomain
 
-- go to stormweb.ca ==>
+- go to stormweb.ca ==> login to CPANEL
 - click `domains`  ==>
 - click dropdown menu for `energyexplorer.ca` ==>
-- under `manage` click `Private Nameservers` ==>
-- enter data in `Register a NameServer Name`: 
+- under `manage` click `zone editor` ==>
 
 
-## tileserver 
+## tileserver // A 
 ```
-nameserver: tiles.energyexplorer.ca
+name: tiles.energyexplorer.ca
 IP Address: ###.###.##.###
 ```
 
 
-## beta 
+## beta // CNAME
 ```
-nameserver: beta.energyexplorer.ca
-IP Address: ###.###.##.###
+name: beta.energyexplorer.ca
+CNAME: <link to heroku url>
 ```
+
+## latest // CNAME
+```
+name: latest.energyexplorer.ca
+CNAME: <link to heroku url>
+```
+
+Currently `energyexplorer.ca` redirects to `latest.energyexplorer.ca`

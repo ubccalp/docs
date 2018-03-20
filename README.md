@@ -9,6 +9,7 @@ Currently used for domains:
 - energyexplorer.ca
     + beta.energyexplorer.ca // archived beta release
     + tiles.energyexplorer.ca // map data tiles
+    + latest.energyexplorer.ca //latest CEE version
 
 ## DigitalOcean:
 
@@ -16,8 +17,6 @@ Currently used for domains:
 
 ## Heroku: 
 
-...
+- energy-explorer-beta
+- energy-explorer
 
-## AWS S3: 
-
-...
