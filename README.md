@@ -20,3 +20,6 @@ Currently used for domains:
 - energy-explorer-beta
 - energy-explorer
 
+## Infrastructure diagram:
+
+![diagram](assets/cee-calp-setup.png)
